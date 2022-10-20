@@ -7,6 +7,7 @@ namespace DesafioProjetoHospedagem.Models
         public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
         {
             TipoSuite = tipoSuite;
+            
             Capacidade = capacidade;
             ValorDiaria = valorDiaria;
         }
